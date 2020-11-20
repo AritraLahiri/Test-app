@@ -1,0 +1,64 @@
+.expense__form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.form__ele {
+	background-color: #f1e5e5;
+	padding: 2rem;
+	border: 1px solid #ccc;
+}
+.form__title {
+	text-transform: uppercase;
+	font-size: 2rem;
+	margin-bottom: 4rem;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.form__input {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	font-weight: 600;
+	outline: none;
+	border: 1px solid #ccc;
+	display: block;
+}
+.form__input::placeholder {
+	color: rgb(160, 156, 156);
+	font-weight: 500;
+	font-family: inherit;
+}
+.form__label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 0.8rem;
+}
+.form__checkbox {
+	margin: 2rem 0;
+	/* margin-bottom: 2rem; */
+}
+.form__checkbox + .form__checkbox {
+	margin-left: 2rem;
+}
+.form__ele__label {
+	margin: 0 0.9rem;
+}
+
+.form__btn {
+	padding: 0.8rem;
+	font-size: 1rem;
+	outline: none;
+	letter-spacing: 2px;
+	margin-top: 2rem;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background-color: #f75e06;
+	text-transform: uppercase;
+	color: #fff;
+	cursor: pointer;
+}
+.form__btn:hover {
+	background-color: #df7f48;
+}

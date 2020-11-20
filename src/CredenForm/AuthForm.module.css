@@ -1,0 +1,28 @@
+.form {
+	background-color: #fcf8f8f3;
+	padding: 2rem;
+	width: 35%;
+	position: fixed;
+	left: 30%;
+	border: 1px solid #ccc;
+	top: 25%;
+}
+.form__title {
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin: 2rem auto;
+}
+.form label {
+	display: block;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 1.5rem 0;
+}
+.form input {
+	outline: none;
+	border: 1px solid #ccc;
+	padding: 0.5rem;
+	width: 100%;
+	font-family: inherit;
+	font-weight: 600;
+}

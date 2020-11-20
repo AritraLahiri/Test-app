@@ -1,0 +1,20 @@
+.dashboard {
+	width: 100%;
+	padding: 2rem;
+	height: 100vh;
+}
+.dashboard__greet {
+	font-size: 3rem;
+	font-weight: 800;
+	letter-spacing: 3px;
+	margin: 5rem auto;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.container h1 {
+	font-weight: 600;
+	font-size: 1.4rem;
+}

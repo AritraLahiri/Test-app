@@ -1,0 +1,9 @@
+.nav__links li {
+	font-size: 1.5rem;
+	color: rgb(247, 240, 240);
+	letter-spacing: 2px;
+}
+
+.nav__links a {
+	color: #ffff;
+}
