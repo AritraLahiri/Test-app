@@ -52,7 +52,7 @@ app.post('/submit', isLoggedIn, (req, res) => {
 		user: req.session.user_id
 	}).save();
 
-	res.redirect('http://localhost:3000/dashboard');
+	res.redirect('https://5fb766e7e1370a9ae537eb85--angry-johnson-d5dbfc.netlify.app/dashboard');
 });
 
 // SIGNING UP USER IN DB
@@ -73,7 +73,7 @@ app.post('/register', async (req, res) => {
 
 			req.session.user_id = registerUser._id;
 
-			res.redirect('http://localhost:3000/');
+			res.redirect('https://5fb766e7e1370a9ae537eb85--angry-johnson-d5dbfc.netlify.app/');
 		} else {
 			res.send('Password not matching');
 		}
@@ -93,7 +93,7 @@ app.post('/login', async (req, res) => {
 		if (validPassword) {
 			req.session.user_id = user._id;
 
-			res.redirect('http://localhost:3000/');
+			res.redirect('https://5fb766e7e1370a9ae537eb85--angry-johnson-d5dbfc.netlify.app/');
 		}
 	} else {
 		res.send('PASSWORD OR USERNAME DOESNOT MATCH !');
@@ -108,7 +108,7 @@ app.get('/show', async (req, res) => {
 			console.log(allExpense);
 			res.send(allExpense);
 		} else {
-			res.redirect('http://localhost:3000/login');
+			res.redirect('https://5fb766e7e1370a9ae537eb85--angry-johnson-d5dbfc.netlify.app/');
 		}
 	} catch (error) {
 		res.status(201).send('SOMETHING WENT WRONG');
